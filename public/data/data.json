@@ -1,0 +1,140 @@
+{
+  "success": true,
+  "resources": {
+    "rows": [
+      { "id": 1, "name": "Room 1", "capacity": 20, "image": "room1.jpg" },
+      { "id": 2, "name": "Room 2", "capacity": 15, "image": "room2.jpg" },
+      { "id": 3, "name": "Room 3", "capacity": 12, "image": "room3.jpg" },
+      { "id": 4, "name": "Room 4", "capacity": 10, "image": "room4.jpg" },
+      { "id": 5, "name": "Room 5", "capacity": 12, "image": "room5.jpg" },
+      { "id": 6, "name": "Room 6", "capacity": 14, "image": "room6.jpg" },
+      { "id": 7, "name": "Room 7", "capacity": 16, "image": "room7.jpg" },
+      { "id": 8, "name": "Lounge", "capacity": 8, "image": "lounge.jpg" }
+    ]
+  },
+  "events": {
+    "rows": [
+      {
+        "resourceId": 1,
+        "name": "HR gathering",
+        "startDate": "Mon Jan 09 2023 14:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 15:30:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 12,
+        "eventType": "meeting",
+        "organizers": ["Joyce Hill", "Francis Roux"],
+        "notes": "",
+        "projectorNeeded": true,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 1,
+        "name": "Marketing strategy",
+        "startDate": "Mon Jan 09 2023 09:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 11:00:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 5,
+        "eventType": "meeting",
+        "organizers": ["Bryce Jones", "Francis Roux"],
+        "notes": "Refer to email from Marketing department",
+        "projectorNeeded": true,
+        "laptopNeeded": true
+      },
+      {
+        "resourceId": 2,
+        "name": "New documentation workflow",
+        "startDate": "Mon Jan 09 2023 14:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 16:30:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 10,
+        "eventType": "internal",
+        "organizers": ["Francis Roux"],
+        "notes": "Compare with last year's document workflow change",
+        "projectorNeeded": false,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 3,
+        "name": "Executive meeting",
+        "startDate": "Mon Jan 09 2023 11:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 13:00:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 12,
+        "eventType": "internal",
+        "organizers": ["Jeffrey Marks", "Joyce Hill", "Francis Roux"],
+        "notes": "See last week's review email",
+        "projectorNeeded": true,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 5,
+        "name": "Designer meeting",
+        "startDate": "Mon Jan 09 2023 11:00:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 13:00:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 2,
+        "eventType": "internal",
+        "organizers": ["Jeffrey Marks"],
+        "notes": "Bring work laptop",
+        "projectorNeeded": true,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 5,
+        "name": "Front end team meeting",
+        "startDate": "Mon Jan 09 2023 14:30:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 16:30:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 9,
+        "eventType": "internal",
+        "organizers": ["Jeffrey Marks"],
+        "notes": "",
+        "projectorNeeded": false,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 8,
+        "name": "Intern interview",
+        "startDate": "Mon Jan 09 2023 11:30:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 13:00:00 GMT+0200 (South Africa Standard Time)",
+
+        "attendees": 3,
+        "eventType": "internal",
+        "organizers": ["Joyce Hill"],
+        "notes": "University intern",
+        "projectorNeeded": false,
+        "laptopNeeded": true
+      },
+      {
+        "resourceId": 3,
+        "name": "Performance review",
+        "startDate": "Mon Jan 09 2023 08:30:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 09:30:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 2,
+        "eventType": "appointment",
+        "organizers": ["Jeffrey Marks"],
+        "notes": "",
+        "projectorNeeded": false,
+        "laptopNeeded": false
+      },
+      {
+        "resourceId": 8,
+        "name": "Intern interview",
+        "startDate": "Mon Jan 09 2023 15:30:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 17:00:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 3,
+        "eventType": "internal",
+        "organizers": ["Joyce Hill"],
+        "notes": "Bootcamp intern",
+        "projectorNeeded": false,
+        "laptopNeeded": true
+      },
+      {
+        "resourceId": 7,
+        "name": "Dev team annual meeting",
+        "startDate": "Mon Jan 09 2023 08:30:00 GMT+0200 (South Africa Standard Time)",
+        "endDate": "Mon Jan 09 2023 11:30:00 GMT+0200 (South Africa Standard Time)",
+        "attendees": 14,
+        "eventType": "internal",
+        "organizers": ["Francis Roux"],
+        "notes": "",
+        "projectorNeeded": true,
+        "laptopNeeded": true
+      }
+    ]
+  }
+}
